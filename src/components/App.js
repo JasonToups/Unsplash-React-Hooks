@@ -8,7 +8,7 @@ const App = () => {
   const [images, search] = useImages('react js');
 
   return (
-    <div className="unsplash-search-page" style={{ marginTop: '10px' }}>
+    <div className="unsplash-search-page">
       <div className='background'></div>
       <SearchBar onFormSubmit={search} />
       <ImageList images={images} />
