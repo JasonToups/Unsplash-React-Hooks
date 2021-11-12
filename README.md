@@ -1,5 +1,15 @@
 # This app renders a searchbar & an image list
 
+## Todos
+- [ ] hide the api key in an env file
+- [ ] rewrite the history to remove the api key
+- [ ] add the api key as a secret to the repo
+- [ ] open a PR for the refactor
+- [ ] Model the updates after React Tube, and integrate the hooks used there
+- [ ] update searchbar with the styling from React Tube
+- [ ] write the meta info
+- [ ] To Deploy - use ghpages to host the site
+
 ## Component Breakdown
 
 There will be:

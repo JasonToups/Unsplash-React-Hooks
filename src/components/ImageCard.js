@@ -1,5 +1,6 @@
 import React from 'react';
 
+// TODO refactor this into a functional component since super(props) has been deprecated
 class ImageCard extends React.Component {
   constructor(props) {
     super(props);

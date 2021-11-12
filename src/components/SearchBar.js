@@ -1,4 +1,5 @@
 import React from 'react';
+import reactLogo from "../style/icons/reactLogo.svg";
 
 class SearchBar extends React.Component {
 	state = { term: '' };
