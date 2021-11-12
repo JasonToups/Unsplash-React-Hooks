@@ -1,15 +1,10 @@
-# This app renders a searchbar & an image list
+# Search Unsplash for Images with React & Hooks
 
 ## Todos
-- [x] hide the api key in an env file
-- [x] rewrite the history to remove the api key
-- [x] add the api key as a secret to the repo
-- [x] open a PR for the refactor
-- [x] Model the updates after React Tube, and integrate the hooks used there
-- [x] Integrate the useImages hook last, after the Functional refactor of the components
-- [x] Refactor the App & SearchBar Class Components to Functional Components
+
+- [x] update searchbar with the styling from React Tube
+- [x] update styling for whole app
 - [ ] Refactor the ImageCard Class Components to a Functional Component
-- [ ] update searchbar with the styling from React Tube
 - [ ] write the meta info
 - [ ] To Deploy - use ghpages to host the site
 
