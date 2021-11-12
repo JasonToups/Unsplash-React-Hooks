@@ -3,7 +3,7 @@ import unsplash from '../apis/unsplash';
 
 // TODO integrate this hook last, after functional refactor of components
 const useImages = (defaultSearchTerm) => {
-  const [videos, setVideos] = useState([]);
+  const [images, setImages] = useState([]);
 
   useEffect(() => {
 		search(defaultSearchTerm);
@@ -17,7 +17,7 @@ const useImages = (defaultSearchTerm) => {
 		setImages(response.data.results);
 	};
 
-  return [videos, search];
+  return [images, search];
 };
 
 export default useImages;
