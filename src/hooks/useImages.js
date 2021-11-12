@@ -1,6 +1,7 @@
 import {useState, useEffect} from 'react';
 import unsplash from '../apis/unsplash';
 
+// TODO integrate this hook last, after functional refactor of components
 const useImages = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
 
@@ -9,17 +10,11 @@ const useImages = (defaultSearchTerm) => {
 	}, [defaultSearchTerm]);
   // TODO update the params here to get the images
   const search = async term => {
-		const response = await unsplash.get('/search', {
-			params: {
-				q: term,
-				part: 'snippet',
-				maxResults: 5,
-				type: 'video',
-				key: process.env.REACT_APP_KEY,
-			},
-		});
-
-		setImages(response.data.items);
+		const response = await unsplash
+      .get('/search/photos', {
+        params: { query: term }
+      })
+		setImages(response.data.results);
 	};
 
   return [videos, search];
