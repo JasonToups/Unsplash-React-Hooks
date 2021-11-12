@@ -6,22 +6,22 @@ import ImageList from './ImageList';
 const App = () => {
   const [images, setImages] = useState([]);
 
-  useEffect(() => {
-		onSearchSubmit('react js');
-	}, []);
+  // TODO refactor this with a custom hook
+  // useEffect(() => {
+	// 	onTermSubmit('react js');
+	// }, []);
 
-  const onSearchSubmit = async (term) => {
+  const onTermSubmit = async (term) => {
     const response = await unsplash
       .get('/search/photos', {
         params: { query: term }
       })
-      console.log(images)
       setImages(response.data.results);
   }
 
   return (
     <div className="ui container" style={{ marginTop: '10px' }}>
-      <SearchBar onSubmit={onSearchSubmit} />
+      <SearchBar onFormSubmit={onTermSubmit} />
       <ImageList images={images} />
     </div>
   );
