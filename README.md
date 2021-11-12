@@ -1,12 +1,14 @@
 # This app renders a searchbar & an image list
 
 ## Todos
-- [ ] hide the api key in an env file
-- [ ] rewrite the history to remove the api key
-- [ ] add the api key as a secret to the repo
-- [ ] open a PR for the refactor
-- [ ] Model the updates after React Tube, and integrate the hooks used there
+- [x] hide the api key in an env file
+- [x] rewrite the history to remove the api key
+- [x] add the api key as a secret to the repo
+- [x] open a PR for the refactor
 - [ ] update searchbar with the styling from React Tube
+- [ ] Refactor all of the Class Components to Functional Components
+- [ ] Model the updates after React Tube, and integrate the hooks used there
+- [ ] Integrate the useImages hook last, after the Functional refactor of the components
 - [ ] write the meta info
 - [ ] To Deploy - use ghpages to host the site
 
