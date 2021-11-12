@@ -1,27 +1,14 @@
-import React, {useState, useEffect} from 'react';
-import unsplash from '../api/unsplash';
+import React from 'react';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
+import useImages from '../hooks/useImages.js';
 
 const App = () => {
-  const [images, setImages] = useState([]);
-
-  // TODO refactor this with a custom hook
-  // useEffect(() => {
-	// 	onTermSubmit('react js');
-	// }, []);
-
-  const onTermSubmit = async (term) => {
-    const response = await unsplash
-      .get('/search/photos', {
-        params: { query: term }
-      })
-      setImages(response.data.results);
-  }
+  const [images, search] = useImages('react js');
 
   return (
     <div className="ui container" style={{ marginTop: '10px' }}>
-      <SearchBar onFormSubmit={onTermSubmit} />
+      <SearchBar onFormSubmit={search} />
       <ImageList images={images} />
     </div>
   );
