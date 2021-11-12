@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/app.scss';
 import SearchBar from './SearchBar';
 import ImageList from './ImageList';
 import useImages from '../hooks/useImages.js';
@@ -8,6 +9,7 @@ const App = () => {
 
   return (
     <div className="ui container" style={{ marginTop: '10px' }}>
+      <div className='background'></div>
       <SearchBar onFormSubmit={search} />
       <ImageList images={images} />
     </div>
