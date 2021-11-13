@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86028c60f70df00af857aff13077b06f",
+    "revision": "c4c2b4218487f242760edb4debd77df2",
     "url": "/Unsplash-React-Hooks/index.html"
   },
   {
