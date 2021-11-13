@@ -2,7 +2,7 @@
   margin: 0;
   -webkit-box-sizing: inherit;
   box-sizing: inherit;
-  font-size: 16px;
+  font-size: 1rem;
 }
 
 #root {
@@ -23,10 +23,10 @@
 
 .unsplash-search-page {
   display: block;
-  width: 1127px;
+  width: 70.4375rem;
   max-width: 100%;
-  margin: 0 auto;
-  padding-bottom: 20px;
+  margin: 0 auto 1.25rem auto;
+  padding-bottom: 1.25rem;
   border-bottom: $border-light;
 }
 
@@ -52,15 +52,15 @@
   .logo-container {
     display: flex;
     flex-direction: row;
-    flex: 120px 0;
+    flex: 7.5rem 0;
     align-items: center;
 
     .logo {
-      width: 60px;
-      height: 60px;
+      width: 3.75rem;
+      height: 3.75rem;
       @include respond-to ($breakpoint-small) {
-        width: 40px;
-        height: 40px;
+        width: 2.5rem;
+        height: 2.5rem;
       }
     }
     @media (prefers-reduced-motion: no-preference) {
@@ -70,7 +70,7 @@
     }
 
     h1 {
-      margin: 0 2.5rem 0 -10px;
+      margin: 0 2.5rem 0 -.625rem;
       font-size: 2.1875rem;
       @include respond-to ($breakpoint-small) {
         margin: 0 1rem 0 0;
@@ -92,7 +92,7 @@
         width: 100%;
         padding: .59375rem .875rem;
         border: $border-dark;
-        border-radius: 25px;
+        border-radius: 1.5625rem;
         @include respond-to ($breakpoint-small) {
           height: 2.25rem;
         }
@@ -119,14 +119,14 @@
 .image-list {
 	display: grid;
   justify-items: center;
-	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-	grid-gap: 0 10px;
-	grid-auto-rows: 10px;
+	grid-template-columns: repeat(auto-fill, minmax(15.625rem, 1fr));
+	grid-gap: 0 .625rem;
+	grid-auto-rows: .625rem;
   margin: 0 .625rem;
 }
 
 .image-list img {
-	width: 250px;
+	width: 15.625rem;
 }
 
 
