@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Unsplash-React-Hooks/static/css/main.32417cdc.chunk.css",
+    "main.js": "/Unsplash-React-Hooks/static/js/main.fadffa38.chunk.js",
+    "main.js.map": "/Unsplash-React-Hooks/static/js/main.fadffa38.chunk.js.map",
+    "runtime-main.js": "/Unsplash-React-Hooks/static/js/runtime-main.e6754398.js",
+    "runtime-main.js.map": "/Unsplash-React-Hooks/static/js/runtime-main.e6754398.js.map",
+    "static/js/2.9d77ceb6.chunk.js": "/Unsplash-React-Hooks/static/js/2.9d77ceb6.chunk.js",
+    "static/js/2.9d77ceb6.chunk.js.map": "/Unsplash-React-Hooks/static/js/2.9d77ceb6.chunk.js.map",
+    "index.html": "/Unsplash-React-Hooks/index.html",
+    "precache-manifest.cfa4b58cd3ca19c6c0d87ac769a3b034.js": "/Unsplash-React-Hooks/precache-manifest.cfa4b58cd3ca19c6c0d87ac769a3b034.js",
+    "service-worker.js": "/Unsplash-React-Hooks/service-worker.js",
+    "static/css/main.32417cdc.chunk.css.map": "/Unsplash-React-Hooks/static/css/main.32417cdc.chunk.css.map",
+    "static/js/2.9d77ceb6.chunk.js.LICENSE.txt": "/Unsplash-React-Hooks/static/js/2.9d77ceb6.chunk.js.LICENSE.txt",
+    "static/media/reactLogo.svg": "/Unsplash-React-Hooks/static/media/reactLogo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e6754398.js",
+    "static/js/2.9d77ceb6.chunk.js",
+    "static/css/main.32417cdc.chunk.css",
+    "static/js/main.fadffa38.chunk.js"
+  ]
+}
