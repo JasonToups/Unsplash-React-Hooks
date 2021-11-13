@@ -4,9 +4,9 @@
 
 - [x] update searchbar with the styling from React Tube
 - [x] update styling for whole app
-- [ ] Refactor the ImageCard Class Components to a Functional Component
 - [ ] write the meta info
 - [ ] To Deploy - use ghpages to host the site
+- [ ] Update Readme explaining the app
 
 ## Component Breakdown
 
