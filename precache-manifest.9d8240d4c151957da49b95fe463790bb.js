@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e178252dbe04e54f60ab50be26a66ebf",
+    "revision": "86028c60f70df00af857aff13077b06f",
     "url": "/Unsplash-React-Hooks/index.html"
   },
   {
-    "revision": "d8afdf73bc286820e4b8",
-    "url": "/Unsplash-React-Hooks/static/css/main.32417cdc.chunk.css"
+    "revision": "730ac02ab6e07e42222c",
+    "url": "/Unsplash-React-Hooks/static/css/main.770f8444.chunk.css"
   },
   {
     "revision": "bbc9dca9dfc7496c7ab2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Unsplash-React-Hooks/static/js/2.9d77ceb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d8afdf73bc286820e4b8",
+    "revision": "730ac02ab6e07e42222c",
     "url": "/Unsplash-React-Hooks/static/js/main.fadffa38.chunk.js"
   },
   {
