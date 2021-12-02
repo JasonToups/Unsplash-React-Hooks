@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6c224cf486ab8755474653aea1a50514",
+    "revision": "540cd6284505391ff720f19b8885baea",
     "url": "/Unsplash-React-Hooks/index.html"
   },
   {
-    "revision": "06428dd231f706a443be",
-    "url": "/Unsplash-React-Hooks/static/css/main.729404b6.chunk.css"
+    "revision": "ea2d44f929ba7f38a4d7",
+    "url": "/Unsplash-React-Hooks/static/css/main.d1f8b317.chunk.css"
   },
   {
     "revision": "bbc9dca9dfc7496c7ab2",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Unsplash-React-Hooks/static/js/2.9d77ceb6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06428dd231f706a443be",
-    "url": "/Unsplash-React-Hooks/static/js/main.fadffa38.chunk.js"
+    "revision": "ea2d44f929ba7f38a4d7",
+    "url": "/Unsplash-React-Hooks/static/js/main.18750cc2.chunk.js"
   },
   {
     "revision": "6b28ccfe238a6c231416",
@@ -26,5 +26,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
     "url": "/Unsplash-React-Hooks/static/media/reactLogo.5d5d9eef.svg"
+  },
+  {
+    "revision": "7224bf706aaf8e4733c1a44e25d5a48f",
+    "url": "/Unsplash-React-Hooks/static/media/unsplashLogo.7224bf70.svg"
   }
 ]);

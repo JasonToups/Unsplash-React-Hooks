@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 253 228" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-1198.17,-337.385)">
+        <g transform="matrix(1,0,0,1,1157.82,1.92913)">
+            <g id="react-unsplash-logo">
+                <g id="unsplash-logo" transform="matrix(2.16465,0,0,2.16465,-3137.56,93.0465)">
+                    <g transform="matrix(1,0,0,1,-0.335517,0.202686)">
+                        <rect x="1507.54" y="113.653" width="38.254" height="28.587"/>
+                    </g>
+                    <path d="M1544.76,157.328L1475.66,157.328L1475.66,214.952L1577,214.952L1577,157.328L1544.76,157.328L1544.76,185.574L1506.51,185.574L1506.51,157.328L1544.76,157.328Z"/>
+                </g>
+                <g id="react-symbol" transform="matrix(1,0,0,1,0,-9.88593)">
+                    <g>
+                        <g transform="matrix(0.919787,-0.526925,0.497648,0.868682,-1078.84,898.404)">
+                            <ellipse cx="1225.26" cy="237.657" rx="42.709" ry="117.88" style="fill:none;stroke:rgb(97,218,251);stroke-width:9.71px;"/>
+                        </g>
+                        <g transform="matrix(0.921126,0.541653,-0.49548,0.860736,-844.46,-408.997)">
+                            <ellipse cx="1225.26" cy="237.657" rx="42.709" ry="117.88" style="fill:none;stroke:rgb(97,218,251);stroke-width:9.71px;"/>
+                        </g>
+                        <g transform="matrix(0.00133955,1.06858,-0.993129,-0.00794544,400.789,-848.17)">
+                            <ellipse cx="1225.26" cy="237.657" rx="42.709" ry="117.88" style="fill:none;stroke:rgb(97,218,251);stroke-width:9.71px;"/>
+                        </g>
+                    </g>
+                    <g transform="matrix(1,0,0,1,-1157.14,-6.04383)">
+                        <circle cx="1323.54" cy="465.274" r="24.867" style="fill:rgb(97,218,251);"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
