@@ -1,7 +1,8 @@
 import React from 'react';
 import '../style/app.scss';
-import SearchBar from './SearchBar';
+import Contact from './Contact';
 import ImageList from './ImageList';
+import SearchBar from './SearchBar';
 import useImages from '../hooks/useImages.js';
 
 const App = () => {
@@ -12,6 +13,7 @@ const App = () => {
       <div className='background'></div>
       <SearchBar onFormSubmit={search} />
       <ImageList images={images} />
+      <Contact />
     </div>
   );
 
