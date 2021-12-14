@@ -113,12 +113,13 @@
         border-radius: 1.5625rem;
         @include respond-to ($breakpoint-small) {
           height: 2.25rem;
+          padding: 0;
         }
         &::placeholder {
           color: $color-quaternary;
           padding-left: .625rem;
           @include respond-to ($breakpoint-small) {
-            font-size: .75rem;
+            font-size: .6875rem;
           }
         }
         &::active {
