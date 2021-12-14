@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Unsplash-React-Hooks/static/css/main.36bec689.chunk.css",
+    "main.css": "/Unsplash-React-Hooks/static/css/main.49f2b873.chunk.css",
     "main.js": "/Unsplash-React-Hooks/static/js/main.2d2f3aac.chunk.js",
     "main.js.map": "/Unsplash-React-Hooks/static/js/main.2d2f3aac.chunk.js.map",
     "runtime-main.js": "/Unsplash-React-Hooks/static/js/runtime-main.301aa3b6.js",
@@ -8,7 +8,7 @@
     "static/js/2.2400ffb8.chunk.js": "/Unsplash-React-Hooks/static/js/2.2400ffb8.chunk.js",
     "static/js/2.2400ffb8.chunk.js.map": "/Unsplash-React-Hooks/static/js/2.2400ffb8.chunk.js.map",
     "index.html": "/Unsplash-React-Hooks/index.html",
-    "static/css/main.36bec689.chunk.css.map": "/Unsplash-React-Hooks/static/css/main.36bec689.chunk.css.map",
+    "static/css/main.49f2b873.chunk.css.map": "/Unsplash-React-Hooks/static/css/main.49f2b873.chunk.css.map",
     "static/js/2.2400ffb8.chunk.js.LICENSE.txt": "/Unsplash-React-Hooks/static/js/2.2400ffb8.chunk.js.LICENSE.txt",
     "static/media/reactLogo.103b5fa1.svg": "/Unsplash-React-Hooks/static/media/reactLogo.103b5fa1.svg",
     "static/media/app.scss": "/Unsplash-React-Hooks/static/media/unsplashLogo.ab194d2f.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.301aa3b6.js",
     "static/js/2.2400ffb8.chunk.js",
-    "static/css/main.36bec689.chunk.css",
+    "static/css/main.49f2b873.chunk.css",
     "static/js/main.2d2f3aac.chunk.js"
   ]
 }
