@@ -59,6 +59,10 @@
     background-position-x: 13px;
     background-position-y: center;
     background-size: 14%;
+    
+    @include respond-to ($breakpoint-small) {
+      background-position-x: 9px;
+    }
 
     .logo {
       width: 3.75rem;
